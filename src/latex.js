@@ -6,12 +6,12 @@ import centeredIcon from '../icons/centered.svg'
 
 export default class extends Plugin {
 	init() {
-		this.addButton('insertInlineLatex', 'Inline LaTeX', inlineIcon, () => {
+		this.addButton('inlineLatex', 'Inline LaTeX', inlineIcon, () => {
 			this.execCommand('insertText', `\\(${getSelection()}\\)`)
 			this.moveCursor(-2)
 		})
 		
-		this.addButton('insertCenteredLatex', 'Centered LaTeX', centeredIcon, () => {
+		this.addButton('centeredLatex', 'Centered LaTeX', centeredIcon, () => {
 			this.execCommand('insertText', `\\[${getSelection()}\\]`)
 			this.moveCursor(-2)
 		})

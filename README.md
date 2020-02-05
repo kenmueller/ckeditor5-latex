@@ -24,4 +24,4 @@ Add `Latex` to `Editor.builtinPlugins`
 
 ### 4.
 
-Add `'insertInlineLatex', 'insertCenteredLatex'` to `toolbar.items`
+Add `'inlineLatex', 'centeredLatex'` to `toolbar.items`
