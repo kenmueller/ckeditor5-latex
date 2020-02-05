@@ -15,7 +15,7 @@ npm i ckeditor5-latex
 In `ckeditor.js`:
 
 ```javascript
-import Latex from 'ckeditor5-latex/src/latex'
+import Latex from 'ckeditor5-latex'
 ```
 
 ### 3.
