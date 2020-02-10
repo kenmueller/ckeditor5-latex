@@ -1,6 +1,6 @@
 {
 	"name": "ckeditor5-latex",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"description": "CKEditor5 LaTeX plugin",
 	"main": "src/latex.js",
 	"author": "Ken Mueller",
