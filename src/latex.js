@@ -12,7 +12,7 @@ export default class extends Plugin {
 		})
 		
 		this.addButton('centeredLatex', 'Centered LaTeX', centeredIcon, () => {
-			this.execCommand('insertText', `\\[${getSelection()}\\]`)
+			this.execCommand('insertText', `$$${getSelection()}$$`)
 			this.moveCursor(-2)
 		})
 	}
