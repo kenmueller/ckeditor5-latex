@@ -1,12 +1,12 @@
 {
 	"name": "ckeditor5-latex",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"description": "CKEditor5 LaTeX plugin",
 	"main": "src/latex.js",
 	"author": "Ken Mueller",
 	"license": "MIT",
 	"dependencies": {
-		"@ckeditor/ckeditor5-core": "^17.0.0",
-		"@ckeditor/ckeditor5-ui": "^17.0.0"
+		"@ckeditor/ckeditor5-core": "^16.0.0",
+		"@ckeditor/ckeditor5-ui": "^16.0.0"
 	}
 }
