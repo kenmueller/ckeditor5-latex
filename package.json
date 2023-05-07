@@ -6,7 +6,7 @@
 	"author": "Ken Mueller",
 	"license": "MIT",
 	"dependencies": {
-		"@ckeditor/ckeditor5-core": "^16.0.0",
-		"@ckeditor/ckeditor5-ui": "^16.0.0"
+		"@ckeditor/ckeditor5-core": "^37.1.0",
+		"@ckeditor/ckeditor5-ui": "^37.1.0"
 	}
 }
